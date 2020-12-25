@@ -77,7 +77,7 @@ app.use('/api/admin/job-types', require('./routes/page/admin/jobTypes'));
 app.use('/api/admin/amount-distribution', require('./routes/page/admin/amountDistribution'));
 app.use('/api/admin/product-types', require('./routes/page/admin/productType'));
 app.use('/api/admin/product-countries', require('./routes/page/admin/productCountries'));
-app.use('/api/admin/product-regions', require('./routes/page/admin/productRegion'));
+// app.use('/api/admin/product-regions', require('./routes/page/admin/productRegion'));
 app.use('/api/admin/produt-dropoff-location', require('./routes/page/admin/dropOffLocations'));
 app.use('/api/admin/campaign-type', require('./routes/page/admin/campaignType'));
 app.use('/api/admin/advertisement-types', require('./routes/page/admin/advertismentTypes'));
