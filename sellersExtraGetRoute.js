@@ -2,7 +2,7 @@ const sellersExtraGetRoute = (app) =>{
     app.use('/api/seller/amount-distribution', require('./routes/page/seller/extra-routes/amountDistribution'));
     app.use('/api/seller/product-categories', require('./routes/page/seller/extra-routes/productCategories'));
     app.use('/api/seller/product-countries', require('./routes/page/seller/extra-routes/productCountries'));
-    app.use('/api/seller/product-regions', require('./routes/page/seller/extra-routes/productRegions'));
+    // app.use('/api/seller/product-regions', require('./routes/page/seller/extra-routes/ProductRegions'));
     app.use('/api/seller/dropoff-locations', require('./routes/page/seller/extra-routes/dropOffLocation'));
 
     // app.use('/api/admin/advance-job-listing', require('./routes/page/admin/advanceJobListing'));
