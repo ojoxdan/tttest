@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34a94d33.chunk.css",
+    "main.js": "/static/js/main.f61b7e14.chunk.js",
+    "main.js.map": "/static/js/main.f61b7e14.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e180b151.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e180b151.js.map",
+    "static/js/2.35e6f5ee.chunk.js": "/static/js/2.35e6f5ee.chunk.js",
+    "static/js/2.35e6f5ee.chunk.js.map": "/static/js/2.35e6f5ee.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b3d0cfc02bfe998178b6122cd4a1b103.js": "/precache-manifest.b3d0cfc02bfe998178b6122cd4a1b103.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.34a94d33.chunk.css.map": "/static/css/main.34a94d33.chunk.css.map",
+    "static/js/2.35e6f5ee.chunk.js.LICENSE.txt": "/static/js/2.35e6f5ee.chunk.js.LICENSE.txt",
+    "static/media/advert-1.PNG": "/static/media/advert-1.4af4b305.PNG",
+    "static/media/advert-2.PNG": "/static/media/advert-2.e9e9df9b.PNG",
+    "static/media/comment-icon.PNG": "/static/media/comment-icon.ad51fc88.PNG",
+    "static/media/dummy.PNG": "/static/media/dummy.09a8e84f.PNG",
+    "static/media/product-icon.PNG": "/static/media/product-icon.2113a3a1.PNG",
+    "static/media/product-image.PNG": "/static/media/product-image.0b2f7c41.PNG",
+    "static/media/tinkoko-logo.png": "/static/media/tinkoko-logo.e51a905f.png",
+    "static/media/user-profile.PNG": "/static/media/user-profile.bb03926e.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e180b151.js",
+    "static/js/2.35e6f5ee.chunk.js",
+    "static/css/main.34a94d33.chunk.css",
+    "static/js/main.f61b7e14.chunk.js"
+  ]
+}

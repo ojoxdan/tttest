@@ -1,0 +1,8 @@
+{
+    "mongooseURI":"mongodb+srv://tinkoko:tinkoko@tinkokoaltascluster.yub2e.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "TKK_USER_SECRET":"defaulttkkUSERsecret",
+    "TKK_BUYER_SECRET":"defaulttkkBUYERsecret",
+    "TKK_SELLER_SECRET":"defaulttkkSELLERsecrete",
+    "TKK_ADMIN_SECRET":"defaulttkkADMINsecrete",
+    "TKK_FORGOTTEN_PASSOWORD":"defaulttkkFORGOTTENPASSWORDsecrete"
+}
