@@ -133,6 +133,7 @@ app.use('/api/buyer/job-types', require('./routes/page/seller/extra-routes/jobTy
 app.use(express.static(path.join('./_buyer-client/build')))
 app.use(express.static(path.join('./_seller-client/build')))
 app.get("/seller", (req, res)=>res.sendFile(path.resolve(__dirname, "_seller-client", "build", "index.html")))
+app.get("/seller/*", (req, res)=>res.sendFile(path.resolve(__dirname, "_seller-client", "build", "index.html")))
 app.get("*", (req, res)=>res.sendFile(path.resolve(__dirname, "_buyer-client", "build", "index.html")))
 
 const PORT = process.env.PORT || 5000;
