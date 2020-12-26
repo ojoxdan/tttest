@@ -115,7 +115,7 @@ app.use('/api/buyer/job-application', require('./routes/page/buyer/jobApplicatio
 app.use('/api/buyer/amount-distribution', require('./routes/page/seller/extra-routes/amountDistribution'));
 app.use('/api/buyer/product-categories', require('./routes/page/buyer/extra-routes/productCategories'));
 app.use('/api/buyer/product-countries', require('./routes/page/seller/extra-routes/productCountries'));
-app.use('/api/buyer/product-regions', require('./routes/page/buyer/extra-routes/productRegions'));
+// app.use('/api/buyer/product-regions', require('./routes/page/buyer/extra-routes/productRegions'));
 app.use('/api/buyer/dropoff-locations', require('./routes/page/seller/extra-routes/dropOffLocation'));
 app.use('/api/buyer/buy-now-products', require('./routes/page/buyer/extra-routes/buyNow'));
 app.use('/api/buyer/posts', require('./routes/page/public/posts'));
