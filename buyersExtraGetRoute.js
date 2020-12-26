@@ -7,7 +7,7 @@ const buyersExtraGetRoute = (app) =>{
     app.use('/api/buyer/buy-now-products', require('./routes/page/buyer/extra-routes/buyNow'));
     app.use('/api/buyer/posts', require('./routes/page/public/posts'));
 
-    // app.use('/api/admin/advance-job-listing', require('./routes/page/admin/advanceJobListing'));
+    app.use('/api/admin/advance-job-listing', require('./routes/page/admin/advanceJobListing'));
     app.use('/api/buyer/business-functions', require('./routes/page/seller/extra-routes/businessFunctions'));
     app.use('/api/buyer/business-industries', require('./routes/page/seller/extra-routes/businessIndustry'));
     app.use('/api/buyer/years-of-experience', require('./routes/page/seller/extra-routes/yearsOfExperience'));

@@ -68,7 +68,20 @@ app.use('/api/seller/buynow', require('./routes/page/seller/my-product/buyNow'))
 app.use('/api/seller/regular', require('./routes/page/seller/my-product/regular'));
 app.use('/api/seller/jobs', require('./routes/page/seller/my-product/jobListing'));
 
-sellersExtraGetRoute(app)
+// sellersExtraGetRoute(app)
+
+app.use('/api/seller/amount-distribution', require('./routes/page/seller/extra-routes/amountDistribution'));
+app.use('/api/seller/product-categories', require('./routes/page/seller/extra-routes/productCategories'));
+app.use('/api/seller/product-countries', require('./routes/page/seller/extra-routes/productCountries'));
+app.use('/api/seller/product-regions', require('./routes/page/seller/extra-routes/ProductRegions'));
+app.use('/api/seller/dropoff-locations', require('./routes/page/seller/extra-routes/dropOffLocation'));
+
+app.use('/api/admin/advance-job-listing', require('./routes/page/admin/advanceJobListing'));
+app.use('/api/seller/business-functions', require('./routes/page/seller/extra-routes/businessFunctions'));
+app.use('/api/seller/business-industries', require('./routes/page/seller/extra-routes/businessIndustry'));
+app.use('/api/seller/years-of-experience', require('./routes/page/seller/extra-routes/yearsOfExperience'));
+app.use('/api/seller/minimum-qualifications', require('./routes/page/seller/extra-routes/minimumQualification'));
+app.use('/api/seller/job-types', require('./routes/page/seller/extra-routes/jobTypes'));
 
 // admin routes 
 app.use('/api/admin/register', require('./routes/page/admin/register'));
@@ -97,7 +110,24 @@ app.use('/api/admin/posts', require('./routes/page/admin/posts'));
 app.use('/api/buyer/orders', require('./routes/page/buyer/orders'));
 app.use('/api/buyer/reviews', require('./routes/page/buyer/reviews'));
 app.use('/api/buyer/job-application', require('./routes/page/buyer/jobApplication'));
-buyersExtraGetRoute(app)
+// buyersExtraGetRoute(app)
+
+app.use('/api/buyer/amount-distribution', require('./routes/page/seller/extra-routes/amountDistribution'));
+app.use('/api/buyer/product-categories', require('./routes/page/buyer/extra-routes/productCategories'));
+app.use('/api/buyer/product-countries', require('./routes/page/seller/extra-routes/productCountries'));
+app.use('/api/buyer/product-regions', require('./routes/page/buyer/extra-routes/productRegions'));
+app.use('/api/buyer/dropoff-locations', require('./routes/page/seller/extra-routes/dropOffLocation'));
+app.use('/api/buyer/buy-now-products', require('./routes/page/buyer/extra-routes/buyNow'));
+app.use('/api/buyer/posts', require('./routes/page/public/posts'));
+
+app.use('/api/admin/advance-job-listing', require('./routes/page/admin/advanceJobListing'));
+app.use('/api/buyer/business-functions', require('./routes/page/seller/extra-routes/businessFunctions'));
+app.use('/api/buyer/business-industries', require('./routes/page/seller/extra-routes/businessIndustry'));
+app.use('/api/buyer/years-of-experience', require('./routes/page/seller/extra-routes/yearsOfExperience'));
+app.use('/api/buyer/minimum-qualifications', require('./routes/page/seller/extra-routes/minimumQualification'));
+app.use('/api/buyer/job-types', require('./routes/page/seller/extra-routes/jobTypes'));
+
+// ends here 
 
 
 app.use(express.static(path.join('./_buyer-client/build')))
