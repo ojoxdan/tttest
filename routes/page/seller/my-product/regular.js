@@ -119,8 +119,8 @@ router.post("/", [...checker], async (req, res) => {
 
       await file.mv(imgPath, (err) => {
         if (err) {
-          console.error(err);
-          return res.status(500).json({ msg: "server error" });
+          console.error(err.message);
+          res.status(500).json({ msg: "server error" });
         }
       });
     };
